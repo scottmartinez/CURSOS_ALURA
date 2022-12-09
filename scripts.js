@@ -177,7 +177,7 @@ if (pagina == "futbol.html") {
     return ArregloLleno;
   }
   var CantidadNumerosAGenerar = parseInt(
-    prompt("Ingrese cantidad de numeros para adivinar")
+    prompt("Ingrese cantidad de numeros para adivinar, entre 1-10")
   );
   var secretos = LlenarArreglo(CantidadNumerosAGenerar - 1);
 
