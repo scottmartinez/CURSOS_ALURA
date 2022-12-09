@@ -1,5 +1,5 @@
-var path = window.location.pathname;
-var pagina = path.split("/").pop();
+var path  = window.location.pathname;
+var pagina  =  path.split("/").pop();
 
 console.log(pagina);
 function SaltoLinea() {
