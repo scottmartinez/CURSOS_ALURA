@@ -23,3 +23,4 @@ for (let index = 0; index <=600; index+=50) {
   DibujarCuadros(index,250,"green");
   console.log(index)
 }
+
