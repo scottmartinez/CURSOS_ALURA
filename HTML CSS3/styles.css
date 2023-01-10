@@ -8,13 +8,14 @@
 .tituloprincipal {
   padding-left: 10px;
 }
-p {
+.parrafos {
   background: #cccccc;
 }
 /*una etiqueta dentro de otra */
 em strong {
   color: red;
 }
+/*Selector por id*/
 #mision{
     font-size: 1.2rem;
 }
@@ -30,7 +31,7 @@ em strong {
 
   font-style: italic;
 }
-ul{
+.listadiferenciales{
   display: inline-block;
   vertical-align: top;
   width: 30%;
@@ -38,4 +39,88 @@ ul{
 }
 .imgdiferenciales{
   width: 50%;
+}
+/*Pagina de productos*/
+
+.headers{
+  background-color:#cccccc;
+  padding: 20px;
+}
+.navegacion{
+  position: absolute;
+  top: 100px;
+  right: 5px;
+
+}
+.caja__div{
+
+  position: relative;
+  margin: 0px auto;
+  width: 85%;
+}
+.navegacion__ul_li{
+  display: inline;
+}
+.navegacion__ul_li a{
+  text-transform: uppercase;
+  color: black;
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
+   margin: 15px;
+}
+.productos__main{
+  width: 85%;
+  margin: 0 auto;
+  padding: 5%;
+
+}
+.productos__main li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: black solid 2px;
+  border-radius: 10px;
+}
+.productos__main h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+.productos_descripcion{
+  font-size: 18px;
+}
+.productos_precio{
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.navegacion__ul_li a:hover{
+  color: #C78c19;
+  text-decoration: underline;
+}
+.productos__main li:hover{
+  border:  #C78c19 solid 2px;
+}
+.productos__main li:active{
+  border:  #19c722 solid 6px;
+  
+}
+.productos__main li:hover h2{
+  font-size: 33px;
+  color: green;
+
+}
+footer{
+  text-align: center;
+  background: url(Recursos/bg.jpg);
+  padding: 40px;
+}
+.copyright{
+  margin-top: 20px;
+  color: white;
+  font-size: 13px;
 }
